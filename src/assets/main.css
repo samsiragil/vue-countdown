@@ -1,0 +1,63 @@
+@font-face {
+  src: url('./fonts/Poppins-Bold.ttf');
+  /* IE9 Compat Modes */
+  src: url('./fonts/Poppins-Bold.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/Poppins-Bold.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-family: Poppins-Bold;
+}
+
+@font-face {
+  src: url('./fonts/Poppins-Regular.ttf');
+  /* IE9 Compat Modes */
+  src: url('./fonts/Poppins-Regular.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/Poppins-Regular.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-family: Poppins-Regular;
+}
+
+@font-face {
+  src: url('./fonts/Poppins-Medium.ttf');
+  /* IE9 Compat Modes */
+  src: url('./fonts/Poppins-Medium.ttf?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('./fonts/Poppins-Medium.ttf') format('truetype');
+  /* Safari, Android, iOS */
+  font-family: Poppins-Medium;
+}
+
+.text-bold{
+  font-family: Poppins-Bold !important ;
+}
+
+.text-blue{
+  color: #3E54AC !important;
+}
+
+.text-big{
+  font-size: 42px !important;
+}
+
+.no-ws{
+  font-size: 0px; 
+}
+.counter-item{
+  display: inline-block;
+  vertical-align: middle;
+}
+.counter-item.timer{
+  font-size: 60px !important;
+  font-family: Poppins-Medium;
+}
+.counter-item.label{
+  font-size: 20px !important;
+  font-family: Poppins-Regular;
+}
+.counter-item.time{
+  width: 15%;
+}
+.counter-item.separator{
+  width: 5%;
+}
